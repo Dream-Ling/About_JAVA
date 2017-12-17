@@ -1,0 +1,96 @@
+java简介
+   sun  ----1995   java    
+   
+   oracle  --2009 
+
+   hadoop   
+
+    
+   java平台    
+     
+     javaSE :java标准开发平台
+     javaME :java微型开发平台
+     javaEE :    企业
+
+   jdk:java开发工具
+
+   jdk 1.2     时间       版本代号     j2se  j2me  j2ee
+
+   jdk 1.5     java5 
+
+      当前     
+
+   apache  开源基金会
+
+   IBM   
+
+java运行
+   
+   jvm:java 虚拟机      跨平台  核心支撑
+   
+   .java  --->javac编译--->.class----->java运行
+
+   类是java程序 开发  最小单元
+   类名 帕斯卡  字母数字下划线 不能以数字开头 通常是字母开头且第一个必须大写。
+
+   使用cmd (command)环境 编译 运行   
+   
+
+   开发环境：
+    Ecplise   MyEcplise
+------------------------------------
+
+语法逻辑
+
+   数据类型：
+       基本：byte(-128 ~127) short() char  int long float double  boolean(true/false)
+       引用：面向对象精华
+
+    内存 ---待运算的数据   
+
+     变量  ：a.声明
+             b.使用  赋值，取值 
+    
+
+   案例1. 输出两个数....//变量
+     int a1 = 10;
+     int a2 = 20;
+     System.out.println(a1);
+     System.out.println(a2);
+
+   案例2. 交换两个数.
+     int a=10;
+     int b=20;
+
+     int temp=a;
+     a =b;
+     b =temp;
+
+   案例3.判断一个数是不是偶数 （算数运算符）
+     int  n=10;
+     if(n%2==0){
+        System.out.println("yes");
+     }else{
+        System.out.println("no");
+     }
+   案例4.得到一个3位正整数的个位  十位  百位
+    int k=123;
+    int g=k%10;
+    int s=(k/10)%10;
+    int b=k/100;
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
